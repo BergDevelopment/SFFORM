@@ -1,0 +1,70 @@
+.salfrc-contact-form{
+    max-width: 570px;
+    margin: 0 auto;
+}
+.salfrc-contact-form form{
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 1.5rem;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+}
+
+.salfrc-contact-form form label{
+    display: block;
+    margin-bottom: 0.5rem;
+}
+.salfrc-contact-form form .form-input{
+    width: 100%;
+    height: auto;
+    min-height: 2.75rem;
+    margin-bottom: 0px;
+    padding: 0.5rem 0.75rem;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000;
+    background-color: #fff;
+    color: #5c5c5c;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.salfrc-contact-form form textarea.form-input{
+    overflow: auto;
+    height: auto;
+    min-height: 11.25rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+.salfrc-contact-form form select{
+    border-color: #000;
+    background-color: transparent;
+    background-image: none;
+}
+
+.salfrc-contact-form form .submit-btn{
+    padding: 0.75rem 1.5rem;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000;
+    background-color: transparent;
+    color: #000;
+    text-align: center;
+    justify-self: start;
+    cursor: pointer;
+}
+
+.form-field-2col {
+    display: -ms-grid;
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 1.5rem;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+}
